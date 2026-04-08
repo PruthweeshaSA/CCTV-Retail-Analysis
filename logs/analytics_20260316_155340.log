@@ -1,0 +1,27 @@
+2026-03-16 15:53:40,584 - INFO - ======================================================================
+2026-03-16 15:53:40,584 - INFO - OPTIMIZED STORE ANALYTICS - CROWDED SCENE SPECIALIST
+2026-03-16 15:53:40,584 - INFO - ======================================================================
+2026-03-16 15:53:40,585 - INFO - Device: cuda
+2026-03-16 15:53:40,585 - INFO - ReID: ENABLED
+2026-03-16 15:53:40,585 - INFO - Ethnicity Fallback: ENABLED
+2026-03-16 15:53:40,585 - INFO - Label Smoothing: ENABLED
+2026-03-16 15:53:40,669 - INFO - Loading YOLO Model...
+2026-03-16 15:53:51,964 - INFO - Loading ResNet Classifier...
+2026-03-16 15:53:52,427 - INFO - ======================================================================
+2026-03-16 15:53:52,471 - INFO - Video: .\test.mp4
+2026-03-16 15:53:52,471 - INFO - 2560x1440 @ 25fps, 7499 frames
+2026-03-16 16:09:55,892 - INFO -   Total detections: 151469
+2026-03-16 16:09:58,487 - INFO -   Detection confidence: mean=0.671, median=0.693
+2026-03-16 16:09:58,488 - INFO -   Average track length: 120.7 frames
+2026-03-16 16:09:58,488 - INFO -   Files created:
+2026-03-16 16:09:58,489 - INFO -     - output/test_20260316_155352_confidence_analysis.png
+2026-03-16 16:09:58,489 - INFO -     - output/test_20260316_155352_precision_recall.png
+2026-03-16 16:09:58,489 - INFO -     - output/test_20260316_155352_timeline_analysis.png
+2026-03-16 16:09:58,489 - INFO -     - output/test_20260316_155352_track_persistence.png
+2026-03-16 16:09:58,492 - INFO - Output: output/test_20260316_155352_optimized.mp4
+2026-03-16 16:09:58,493 - INFO - Footfall: 9 | Unique: 8
+2026-03-16 16:09:58,493 - INFO - Male: 4 (50.0%) | Female: 4 (50.0%)
+2026-03-16 16:09:58,493 - INFO - Locked: 8 | ReID Assists: 185
+2026-03-16 16:09:58,493 - INFO - Ethnicity 'unknown' assigned: 0
+2026-03-16 16:09:58,502 - INFO - ======================================================================
+2026-03-16 16:09:58,504 - INFO - ======================================================================

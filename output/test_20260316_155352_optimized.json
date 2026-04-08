@@ -1,0 +1,86 @@
+{
+  "video": "test",
+  "tracker": "BoT-SORT + ReID (Optimized)",
+  "processing_time": 962.681281,
+  "fps": 7.8,
+  "footfall": 9,
+  "passby": 498,
+  "unique": 8,
+  "male": 4,
+  "male_pct": 50.0,
+  "female": 4,
+  "female_pct": 50.0,
+  "total_classified": 8,
+  "demographics": {
+    "gender": {
+      "female": 4,
+      "male": 4
+    },
+    "age": {
+      "adult": 8
+    },
+    "ethnicity": {
+      "unknown": 8
+    }
+  },
+  "tracking": {
+    "active_tracks": 122,
+    "tracks_created": 1255,
+    "tracks_classified": 8,
+    "classifications_recovered": 0,
+    "tracks_lost": 6,
+    "reid_assists": 185,
+    "id_switches_prevented": 185
+  },
+  "classifier": {
+    "total_classifications": 26,
+    "failed_classifications": 0,
+    "ethnicity_unknown_assigned": 0,
+    "success_rate": 100.0
+  },
+  "tracking_errors": 0,
+  "analytics_metrics": {
+    "confidence_distribution_plot": "output/test_20260316_155352_confidence_analysis.png",
+    "precision_recall_plot": "output/test_20260316_155352_precision_recall.png",
+    "average_precision": 1.0,
+    "detection_stats": {
+      "total_detections": 151469,
+      "unique_tracks": 1255,
+      "mean_confidence": 0.6709579911670617,
+      "median_confidence": 0.693089485168457,
+      "std_confidence": 0.17297044409653312,
+      "min_confidence": 0.28001919388771057,
+      "max_confidence": 0.9611339569091797,
+      "high_confidence_detections": 73845,
+      "medium_confidence_detections": 46544,
+      "low_confidence_detections": 31080,
+      "in_store_detections": 3553,
+      "outside_store_detections": 147916
+    },
+    "timeline_plot": "output/test_20260316_155352_timeline_analysis.png",
+    "track_persistence_plot": "output/test_20260316_155352_track_persistence.png",
+    "track_stats": {
+      "mean_track_length": 120.69243027888446,
+      "median_track_length": 56.0,
+      "max_track_length": 4562,
+      "min_track_length": 1
+    }
+  },
+  "config": {
+    "confidence": 0.28,
+    "iou": 0.45,
+    "ethnicity_fallback": true,
+    "label_smoothing": true
+  },
+  "output_files": {
+    "video": "output/test_20260316_155352_optimized.mp4",
+    "detections_csv": "output/test_20260316_155352_detections.csv",
+    "analytics_plots": [
+      "output/test_20260316_155352_confidence_analysis.png",
+      "output/test_20260316_155352_precision_recall.png",
+      "output/test_20260316_155352_timeline_analysis.png",
+      "output/test_20260316_155352_track_persistence.png"
+    ],
+    "report_json": "output/test_20260316_155352_optimized.json"
+  }
+}

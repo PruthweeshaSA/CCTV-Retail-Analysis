@@ -1,0 +1,35 @@
+# Enhanced BoT-SORT with ReID - Optimized for Crowded Scenes
+# Configuration for better ID maintenance and occlusion handling
+
+tracker_type: botsort
+
+# OPTIMIZED detection thresholds for crowds
+track_high_thresh: 0.4
+track_low_thresh: 0.05
+new_track_thresh: 0.5
+
+# Enhanced track management
+track_buffer: 90
+match_thresh: 0.7
+
+# Camera motion compensation (crucial for moving people)
+gmc_method: sparseOptFlow
+
+# ===== ENHANCED REID CONFIGURATION =====
+with_reid: True
+proximity_thresh: 0.3
+appearance_thresh: 0.18
+fuse_score: True
+model: auto
+
+# Balanced weights - favor appearance over motion
+lambda_iou: 0.35
+lambda_reid: 0.65
+
+# Additional parameters
+reid_weights: null
+fast_reid: False
+
+# Minimum box area (filter out tiny detections)
+min_box_area: 400
+aspect_ratio_thresh: 4.0
